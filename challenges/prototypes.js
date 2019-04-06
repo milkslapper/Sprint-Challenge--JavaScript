@@ -9,7 +9,6 @@ function CuboidMaker(length,width,height){
   this.length = length;
   this.width = width;
   this.height = height;
-  // this.dimensions = attribute.dimensions;
 }
 
 /* == Step 2: Volume Method ==
