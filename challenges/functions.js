@@ -17,7 +17,7 @@ function multiply (num1,num2)  {
   return num1 * num2;
 }
 function greeting (num1, num2){
-  return `Hello` num1 + num2 , `Nice to meet you!`
+  return `Hello `+ num1 + ` `+ num2 + ` ` +`Nice to meet you!`
 }
 
 
@@ -39,7 +39,7 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation: 
-
+// The reason the nestedfunction can acces the variable internal because it is still inside of the myFunction scope when being called .
 
 // const external = "I'm outside the function";
 
